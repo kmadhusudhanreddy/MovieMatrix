@@ -76,7 +76,8 @@
 }
 
 .ham_burger i {
-  font-size: x-large;
+  font-size: xx-large;
+  color: black;
 }
 
 /* sidebar */
@@ -452,7 +453,7 @@ ul {
 
 /* responsivness */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
   .search {
     /* margin-left: 2rem; */
   }
@@ -514,12 +515,20 @@ ul {
   } */
 }
 
-@media screen and (max-width: 600px) {
-  .search {
-    /* margin-left: 2rem; */
-  }
-
+@media screen and (max-width: 700px) {
   .content {
     grid-template-columns: repeat(2, 1.5fr);
+  }
+
+  .nav_bar {
+    width: 100%;
+    height: 15vh;
+
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    gap: 1rem;
+    position: fixed;
+    top: 0;
   }
 }
