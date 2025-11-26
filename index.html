@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MovieVerse</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/e53cc6a42d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="child">
+        <!-- navbar -->
+        <div class="nav_bar">
+          <div class="logo">
+            <img src="./images/movie.png" alt="" srcset="" />
+          </div>
+          <div class="search">
+            <input
+              class="search_movie , search_div"
+              type="text"
+              placeholder="SEARCH MOVIES ... "
+            />
+            <button class="search_btn , search_div">Search</button>
+            <!-- hamburger for responsiveness  -->
+            <div class="ham_burger">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+          </div>
+        </div>
+        <!-- sidebar -->
+        <div class="main">
+          <div class="side_bar">
+            <ul class="movie_type_list">
+              <li class="movie_style" data-type="popular">Popular</li>
+
+              <li class="movie_style" data-type="now_playing">Now Playing</li>
+
+              <li class="movie_style" data-type="movie">Movies</li>
+
+              <li class="movie_style" data-type="tv">Tv Shows</li>
+
+              <li class="movie_style" data-type="upcoming">UpComing</li>
+            </ul>
+          </div>
+
+          <!-- content -->
+          <!-- dynamically we add it  -->
+          <div class="content">
+            <!-- <div class="movie-content">
+              <div class="movie_poster">
+                <img
+                  src="https://tse2.mm.bing.net/th/id/OIP.pzHzXKTcOWnvKPz1Tfyp0QHaLH?pid=Api&P=0&h=180"
+                  alt=""
+                />
+              </div>
+              <h3>title</h3>
+             </div> -->
+
+            <!-- </div> -->
+          </div>
+        </div>
+      </div>
+      <!-- div for movie info and all details etc -->
+
+      <!-- <div class="about_movie_background"> -->
+      <div class="about_movie">
+        <!-- <div class="back_button_div">
+          <button class="back_button">back</button>
+        </div>
+        <div class="movie_content_type">
+          <div class="movie_img">
+            <img
+              src="https://tse2.mm.bing.net/th/id/OIP.X8GXwUnJEzAclGg3OtAnrAHaLH?pid=Api&P=0&h=180"
+              alt=""
+            />
+          </div>
+
+          <div class="movie_info">
+            <h1 class="movie_title">title</h1>
+            <div class="movie_genre">
+              <div class="movie_score">
+                <div class="user_score">80<sup>%</sup></div>
+                <h3>UserScore</h3>
+                <h3 class="movie_genre_type">Drama , Thriller</h3>
+                <h4 class="movie_run-time">RunTime</h4>
+              </div>
+              <h4 class="movie_tagline">TagLine</h4>
+              <h3>Overview</h3>
+              <h4 class="movie_overview">fightclub is .......</h4>
+            </div>
+          </div>
+        </div> -->
+      </div>
+      <!-- </div> -->
+
+      ========
+
+      <!-- search movie div -->
+      <div class="search_movie_parent_div">
+        <div class="search_back_button_div">
+          <button class="search_back_button">Back</button>
+        </div>
+        <div class="search_movies">
+          <!-- <div class="search_movie_div">
+            <div class="search_movie_img_div">
+              <img
+                src="https://up.yimg.com/ib/th/id/OIP.jBWsRADSO7GaiusykIuwewHaKh?pid=Api&rs=1&c=1&qlt=95&w=78&h=112"
+                alt=""
+              />
+            </div>
+            <div class="search_movie_title">The Dark Knight</div>
+          </div> -->
+        </div>
+      </div>
+
+      <!-- loading div -->
+      <div class="loading_div">
+        <div class="loader">
+          <img src="./images/loader.gif" />
+        </div>
+      </div>
+    </div>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
