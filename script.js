@@ -142,6 +142,7 @@ document.addEventListener("click", (e) => {
 //getting movie details of that clicked movie
 let movieLoading = true;
 async function getMovieDeatils(content_type, movie_id) {
+  const options = await getOptions();
   let url = "";
   try {
     if (movieLoading) {
