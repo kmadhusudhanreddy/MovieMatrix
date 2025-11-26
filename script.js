@@ -5,7 +5,7 @@ async function getKey() {
 }
 
 async function getOptions() {
-  const API_KEY = await getKey();
+  // const API_KEY = await getKey();
   return {
     method: "GET",
     headers: {
@@ -20,7 +20,7 @@ async function getOptions() {
 let content = document.querySelector(".content");
 let sideBar = document.querySelector(".side_bar");
 let searchMovie = document.querySelector(".search_movie");
-let searchBtn = document.querySelector(".search_btn");
+let searchBtn = document.querySelector(".search_img_div");
 let movieTypeList = document.querySelector(".movie_type_list");
 let aboutMovieBackground = document.querySelector(".about_movie_background");
 let aboutMovie = document.querySelector(".about_movie");
