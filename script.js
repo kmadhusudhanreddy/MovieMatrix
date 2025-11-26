@@ -5,7 +5,7 @@ async function getKey() {
 }
 
 async function getOptions() {
-  // const API_KEY = await getKey();
+  const API_KEY = await getKey();
   return {
     method: "GET",
     headers: {
