@@ -8,8 +8,8 @@ A modern, responsive movie discovery web app built using **HTML, CSS, Vanilla Ja
 
 ---
 ## 📷 Screenshots  
-![HomePage](images/movie.png)
-![AboutMovie]("C:\Users\K.MADHUSUDHAN REDDY\OneDrive\Pictures\Screenshots\Screenshot 2025-11-27 114018.png")
+![HomePage](images/MovieVerseHome.png)
+![AboutMovie](images/AboutMovie.png)
 
 
 
