@@ -1,5 +1,5 @@
 <h1 align="center">🎬 <strong>Movie Matrix</strong></h1>
-<h3 align="center">A Powerful Movie & TV Show Discovery Web App</h3>
+<h3 align="center"> Movie Discovery Web App</h3>
 
 A modern, responsive movie discovery web app built using **HTML, CSS, Vanilla JavaScript**, and the **TMDB API**.
 
@@ -8,9 +8,8 @@ A modern, responsive movie discovery web app built using **HTML, CSS, Vanilla Ja
 
 ---
 ## 📷 Screenshots  
-"C:\Users\K.MADHUSUDHAN REDDY\OneDrive\Pictures\Screenshots\Screenshot 2025-11-27 113715.png"
-"C:\Users\K.MADHUSUDHAN REDDY\OneDrive\Pictures\Screenshots\Screenshot 2025-11-27 114018.png"
-
+![HomePage]("C:\Users\K.MADHUSUDHAN REDDY\OneDrive\Pictures\Screenshots\Screenshot 2025-11-27 113715.png")
+![AboutMovie]("C:\Users\K.MADHUSUDHAN REDDY\OneDrive\Pictures\Screenshots\Screenshot 2025-11-27 114018.png")
 
 
 
